@@ -1,0 +1,75 @@
+.wrapper {
+    position:absolute;
+    left:30%;
+    top:10%;
+
+}
+.face {
+    position: relative;
+    width: 400px;
+    height: 350px;
+    border:solid 2px black;
+    background-color: green;
+    border-radius: 100em;
+    z-index:1;
+}
+
+.righteye {
+    position:relative;
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+    border:solid 1px black;
+    top: -80px;
+    left: 225px;
+    background-color: black;
+    border-radius: 100px 50px;
+}
+
+#rie{
+    position:relative;
+    width: 70px;
+    height: 70px;
+    z-index:3;
+    border:solid 1px white;
+    top: 65;
+    left: 30;
+    background-color: white;
+    border-radius: 100px;
+}
+
+.lefteye {
+    position:relative;
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+    border:solid 1px back;
+    top: 64px;
+    left: 32px;
+    background-color: black;
+    border-radius: 50px 100px;
+}
+
+#lie{
+    position:relative;
+    width: 70px;
+    height: 70px;
+    z-index:3;
+    border:solid 1px white;
+    top: 65px;
+    left: 50px;
+    background-color: white;
+    border-radius: 100px;
+}
+
+.body {
+    height: 300px;
+    width: 300px;
+    position:relative;
+    border:solid 1px black;
+    background-color:green;
+    z-index:0;
+    top:-25px;
+    left:50px;
+    border-radius: 50px 50px 0px 0px;
+}
